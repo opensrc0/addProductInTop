@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+#app {
+    margin-bottom: 50px;
+}
+
+#addProduct {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#saveProduct{
+    margin-top: 20px;
+}
+
+.list {
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.list:hover {
+    box-shadow: 0 0 6px grey;
+}

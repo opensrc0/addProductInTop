@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Walmart</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="modal.css">
+    </head>
+    <body>
+        <div id="app"></div>
+        <button id="addProduct">Add Product</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <input type="text" name="id" id="productId" placeholder="Enter Id">
+              <input type="text" name="name" id="productName" placeholder="Enter Name">
+              <input type="text" cost="cost" id="productCost" placeholder="Enter Cost">
+              <button id="saveProduct" class="button">Save</button>
+            </div>
+          </div>
+        <script src="getRandom.js"></script>
+        <script src="script.js"></script>
+        <script src="modal.js"></script>
+    </body>
+</html>
